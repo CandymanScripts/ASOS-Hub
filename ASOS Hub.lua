@@ -36,7 +36,7 @@ end)
 Section2:NewSlider("WalkSpeed", "Changes The WalkSpeed", 500, 20, function(s) -- 500 (MaxValue) | 0 (MinValue) also By Candyman#9229
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
-Section2:NewSlider("JumpHeight", "Changes JumpHeight", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+Section2:NewSlider("JumpHeight", "Changes JumpHeight", 2500, 85, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 Section3:NewButton("Open Chests", "Open All Chests", function()
